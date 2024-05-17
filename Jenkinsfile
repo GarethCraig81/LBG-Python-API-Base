@@ -6,7 +6,7 @@ pipeline {
 
       GCR_CREDENTIALS_ID = 'qwerty123' // The ID you provided in Jenkins credentials
 
-      IMAGE_NAME = 'test-build-1'
+      IMAGE_NAME = 'flask-nginx'
 
       GCR_URL = 'gcr.io/lbg-mea-18/week-3-project-gc'
 
