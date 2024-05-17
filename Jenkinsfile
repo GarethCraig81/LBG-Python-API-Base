@@ -4,9 +4,9 @@ pipeline {
 
   environment {
 
-      GCR_CREDENTIALS_ID = 'qwerty123' // The ID you provided in Jenkins credentials
+      GCR_CREDENTIALS_ID = 'gareth123' // The ID you provided in Jenkins credentials
 
-      IMAGE_NAME = 'flask-nginx'
+      IMAGE_NAME = 'test-build-1'
 
       GCR_URL = 'gcr.io/lbg-mea-18/week-3-project-gc'
 
